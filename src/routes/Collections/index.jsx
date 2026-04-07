@@ -6,7 +6,7 @@ import { FaTrash as Trash } from "react-icons/fa";
 import { FaCheck as Check } from "react-icons/fa";
 
 const Collections = ({ gameState, setGameState, setPassiveRent }) => {
-    const [inputValue, setInputValue] = useState('verde')
+    const [inputValue, setInputValue] = useState('')
     const [lettersInInventoryCopy, setLettersInInventoryCopy] = useState(gameState.letters)
 
     const handleInput = (e) => {
