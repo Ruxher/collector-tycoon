@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fundo -->
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+
+  <!-- Moeda -->
+  <circle cx="20" cy="44" r="12" fill="#f5c542" stroke="#c9971a" stroke-width="1.5"/>
+  <text x="20" y="49" text-anchor="middle" font-family="Georgia,serif" font-weight="900" font-size="14" fill="#7a5200">$</text>
+
+  <!-- Caixinha de letra -->
+  <rect x="30" y="14" width="26" height="30" rx="5" fill="#4a90d9" stroke="#2a6cb0" stroke-width="1.5"/>
+  <rect x="30" y="25" width="26" height="8" fill="#2a6cb0"/>
+  <text x="43" y="50" text-anchor="middle" font-family="Georgia,serif" font-weight="900" font-size="14" fill="white">A</text>
+</svg>

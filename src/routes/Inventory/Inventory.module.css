@@ -1,0 +1,21 @@
+.inventory {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 60%;
+    margin: 5rem auto;
+    flex-wrap: wrap;
+}
+
+.item {
+    border-top: 1px solid var(--yellow);
+    text-align: center;
+}
+
+.item h2 {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.item p {
+    color: var(--secondary-text);
+}

@@ -1,0 +1,45 @@
+.shop {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.pack {
+    width: 10rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pack h2 {
+    text-align: center;
+    border-top: 1px solid var(--yellow);
+    padding: 1rem 0;
+}
+
+.pack p {
+    color: var(--secondary-text);
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+}
+
+.pack button {
+    background-color: transparent;
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+    padding: 1rem;
+    cursor: pointer;
+
+}
+
+.pack button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+@media (max-width: 720px) {
+}

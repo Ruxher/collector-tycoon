@@ -1,0 +1,22 @@
+
+.earn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.earn button {
+    background-color: transparent;
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+    padding: 2rem 4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.earn button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}

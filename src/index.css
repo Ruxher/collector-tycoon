@@ -1,0 +1,27 @@
+:root {
+  --black: #000000;
+  --yellow: #FFFF00;
+  --text: #FFFFFF;
+  --secondary-text: #888888;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+}
